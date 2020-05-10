@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h5, h6, p, li, input, button, a, span {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn-element {
+  font-size: 13px;
+  letter-spacing: 1px;
+  background-color: #df0e62;
+  transition: 0.3s;
+}
+.btn-element:hover {
+  background-color: #bb0c52;
+}
+
+.wrapper {
+  max-width: 800px;
+  padding: 100px 0px;
+  margin: 0 auto;
+}
+@media (max-width: 1150px) {
+  .wrapper {
+    padding: 100px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 50px 15px;
+  }
+}
+
+.menu-div {
+  background-color: #000;
+  position: fixed;
+  width: 270px;
+  height: 100vh;
+  z-index: 10;
+}
+@media (max-width: 768px) {
+  .menu-div {
+    width: 100%;
+    height: auto;
+  }
+}
+.menu-div nav button {
+  outline: none !important;
+}
+.menu-div nav button i {
+  color: white;
+  font-size: 25px;
+}
+.menu-div .logo a {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.menu-div .nav-link {
+  transition: 0.3s;
+  color: #fff;
+}
+.menu-div .nav-link:hover {
+  color: #df0e62;
+}
+.menu-div .active {
+  color: #df0e62 !important;
+  letter-spacing: 1px;
+}
+
+.content-div {
+  width: calc(100% - 270px);
+}
+@media (max-width: 768px) {
+  .content-div {
+    width: 100%;
+    height: calc(100%);
+  }
+}
+.content-div .jarallax {
+  position: relative;
+  min-height: 100vh;
+}
+.content-div .jarallax .video-wrap {
+  max-width: 700px;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .content-div .jarallax .video-wrap {
+    height: calc(100vh - 79px);
+    margin-top: 79px;
+  }
+}
+.content-div .jarallax .video-wrap h1 {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.content-div .jarallax .video-wrap p {
+  font-size: 18px;
+}
+.content-div .card-columns {
+  column-gap: 5px;
+  background-color: #000;
+}
+@media (max-width: 992px) {
+  .content-div .card-columns {
+    column-count: 2;
+  }
+}
+@media (max-width: 568px) {
+  .content-div .card-columns {
+    column-count: 1;
+    column-gap: 0px;
+  }
+}
+.content-div .card-columns .pic {
+  margin-bottom: 5px;
+}
+@media (max-width: 576px) {
+  .content-div .card-columns .pic .pic9 {
+    margin-bottom: 5px;
+  }
+}
+.content-div .card-columns .pic img {
+  width: 100%;
+  height: auto;
+}
+.content-div .bio-sec {
+  background-color: #1A1A1A;
+}
+.content-div .bio-sec .wrapper h1 {
+  letter-spacing: 1px;
+}
+.content-div .bio-sec .wrapper .bio-content h2 {
+  font-weight: 400;
+}
+.content-div .bio-sec .wrapper .bio-content p {
+  color: gray;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.content-div .bio-sec .wrapper .bio-content p span {
+  color: #df0e62;
+}
+.content-div .blog-sec {
+  background-color: #000;
+}
+.content-div .blog-sec .wrapper ul li .content-bio h2 a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.content-div .blog-sec .wrapper ul li .content-bio p {
+  line-height: 1.2;
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.content-div .blog-sec .wrapper ul li .content-bio p a {
+  color: #df0e62;
+  text-transform: capitalize;
+}
+.content-div .blog-sec .wrapper ul li .content-bio .cont {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.content-div .blog-sec .wrapper .paginationjs .paginationjs-pages li {
+  background-color: transparent;
+  border: none;
+}
+.content-div .blog-sec .wrapper .paginationjs .paginationjs-pages li a {
+  background-color: transparent;
+  color: white !important;
+}
+.content-div .contact-sec {
+  background-color: #1A1A1A;
+}
+.content-div .contact-sec form input,
+.content-div .contact-sec form textarea {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 3px solid grey;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  outline: none !important;
+  padding: 4px 0px 4px 4px;
+  color: #fff;
+}
+.content-div .footer {
+  background-color: #000;
+  padding: 50px 0px;
+}
+@media (max-width: 576px) {
+  .content-div .footer {
+    padding: 30px 20px;
+  }
+}
+.content-div .footer p {
+  color: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
